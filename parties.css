@@ -1,0 +1,152 @@
+*,body{
+    padding: 0;
+    margin: 0;
+}
+nav {
+    background-color: black;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav ul li {
+    padding: 15px;
+    list-style-type: none;
+   position: sticky;
+}
+nav li a {
+    text-decoration: none;
+    color:#3F51B5
+}
+.countainer {
+    margin-left: 20%;
+    margin-right: 20%;
+   /* background-color: #E91E63;*/
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+}
+.band p {
+    padding: 10px;
+    text-align: center;
+}
+.band h2 {
+    padding: 3px;
+    font-style: italic;
+    font-size: medium;
+    color:rgb(73, 2, 73);
+}
+h2 {
+    padding: 10px;
+    font-style: italic;
+    font-size: medium;
+    color: rgb(73, 2, 73);
+    text-align: center ;
+}
+h1 {
+    color: blue;
+    padding: 10px;
+    text-align: center;
+}
+.image {
+    float: left;
+    width: calc(70%/3);
+    margin-right: 10%; ;
+}
+.clear {
+    clear: both;
+
+}
+.tour {
+    overflow: hidden;
+    background-color: black;
+}
+.zero h1 {
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.zero p {
+    padding: 10px;
+    color : grey ;
+    background-color: white;
+    border: 1px solid grey ;
+}
+
+#red {
+    background-color: red;
+    color: white;
+    border: 2px solid red ;
+}
+#black {
+    float: right;
+    background-color: black;
+    color: white;
+    border: 2px solid black ;
+    border-radius: 40px ;
+    text-align: center;
+    width: 20px;
+}
+
+.tickets{
+    height: 600px;
+    overflow: hidden;
+    margin-top: 20px;
+    background-color: white;
+    float: left;
+    width: calc(70%/3);
+    margin-right:10% ;
+    margin-bottom: 50px;
+}
+.tickets p {
+    padding: 9px;
+}
+
+h3{
+    font-size: medium;
+    color : rgb(73, 2, 73);
+    text-align: center ;
+}
+h4{
+    font-size: medium;
+    padding: 4px;
+    color: rgb(73, 2, 73);
+    text-align: center ;
+}
+#img {
+    width: 100%;
+}
+#button {
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+.contact{
+    overflow: hidden;
+    background-color: white ;
+}
+.info {
+    overflow: hidden;
+    margin-top: 20px;
+    background-color: white;
+    float: left;
+    width: calc(70%/2);
+    margin-right:10% ;
+    margin-bottom: 50px;
+
+}
+.info button{
+    background-color: black;
+    font-size: large;
+    color: white;
+    padding: 10px;
+}
+video{
+    width: 100%;
+    height: 1000px;
+}
+footer{
+    padding: 10px;
+    background-color: black;
+}
